@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.js--drag-and-drop {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.js--drag-and-drop .area {
+  margin: 2%;
+  padding: 20px;
+  width: 46%;
+  height: 500px;
+  border: 1px solid rgba(160, 160, 160, 0.5);
+}
+
+.js--drag-and-drop .col {
+  margin: 2%;
+  padding: 20px;
+  width: 46%;
+}
+
+.js--drag-and-drop .title {
+  text-align: center;
+  margin-bottom: 50px;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.js--drag-and-drop .new-item {
+  border: 1px solid rgba(0, 255, 67, 1);
+  padding: 10px;
+  width: 100%;
+}
